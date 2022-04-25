@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /admin
+Disallow: /img/admin
+Disallow: /support
+Disallow: /index.html
+Disallow: *&
+Disallow: /404.html
+Allow: /error.html
+Host: https://Glebplay1.github.io

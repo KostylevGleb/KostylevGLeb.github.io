@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Книга</title>
+    <meta name="description" content="Страница отдельной книги">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+        <ul class="m-menu">
+            <li class="close-menu"><a href="#">&times;</a></li>
+            <li class="menu-link-3"><a href="news.html">Новости</a></li>
+            <li class="menu-link-3"><a href="book.html">Книги</a></li>
+            <li class="menu-link-3"><a href="#">Услуги</a></li>
+            <li class="menu-link-3"><a href="#">О нас</a></li>
+        </ul>
+<div class="header-fon">
+    <header class="header">
+    <ul class="menu">
+        <li class="menu-link-1"><a href="index.html">
+            Читай вместе с нами</a></li>
+        <li class="menu-link-2"><a href="news.html" class="menu-link">Новости</a></li>
+        <li class="menu-link-2"><a href="book.html" class="menu-link">Книги</a></li>
+        <li class="menu-link-2"><a href="#" class="menu-link">Услуги</a></li>
+        <li class="menu-link-2"><a href="#" class="menu-link">О нас</a></li>
+        <li class="icon"><div class="bars"><a href="#" class="fa fa-bars fa-lg">
+        </a></div><div class="icon-1"><a href="#" 
+            class="fa fa-search fa-rotate-90 fa-lg"></a></div>
+        <div><a href="#" class="fa fa-user fa-lg"></a></div></li>
+    </ul>
+    </header>
+</div>
+<main class="book-fon">
+    <div class="main-book">
+        <div class="main-book-1">
+            <img src="img/books/book0001.jpeg" alt="Книга 0001">
+            <div class="main-book-2">
+                <span><strong>Заговор корпорации "Umbrella"</strong></span>
+                <span>Перри С.</span>
+                <span><strong>ID товара: </strong>2896636</span>
+                <span><strong>Серия: </strong>Resident evil</span>
+                <span><strong>Год издания: </strong>2012</span>
+                <span><strong>ISBN-</strong>10: 1781161771</span>
+                <span><strong>Кол-во страниц </strong>288</span>
+            </div>
+            <div>
+                <input class="but10" type="button" value="Арендовать"><br>
+                <input class="but10" type="button" value="В закладки">
+            </div>
+        </div>
+
+        <div class="main-book-3">
+            <h2>Оставьте отзыв</h2>
+            <span>Оцените товар:</span>
+            <div class="rating-area">
+                <input type="radio" id="star-5" name="rating" value="5">
+                <label for="star-5" title="Оценка «5»"></label>	
+                <input type="radio" id="star-4" name="rating" value="4">
+                <label for="star-4" title="Оценка «4»"></label>    
+                <input type="radio" id="star-3" name="rating" value="3">
+                <label for="star-3" title="Оценка «3»"></label>  
+                <input type="radio" id="star-2" name="rating" value="2">
+                <label for="star-2" title="Оценка «2»"></label>    
+                <input type="radio" id="star-1" name="rating" value="1">
+                <label for="star-1" title="Оценка «1»"></label>
+            </div>
+            <form class="feedback">
+                Имя:<input type="text"><br>
+                Комментарий: <textarea></textarea>
+                <input class="but10" type="submit" value="Опубликовать отзыв">
+            </form>
+        </div>
+        <h2 class="feedback-2">Отзывы</h2>
+        <div class="main-book-4">
+            <div class="main-book-4-1">
+            <div class="rating-mini">
+                <span class="active"></span>	
+                <span class="active"></span>    
+                <span class="active"></span>  
+                <span class="active"></span>    
+                <span class="active"></span>
+            </div>
+            <span>02.04.2022</span></div>
+                <span><strong>Джилл</strong></span><br><br>
+                <span>Книга идет исключительно на серию игр, 
+                    "Бухта Каллибан" и "Подземелье" не имеют 
+                    отношения ни к фильмам, ни к играм, но 
+                    они являются одними из любимых книг из серии RE </span>
+        </div>
+    </div>
+</main>
+
+<footer>
+    <div class="foot-fon">
+    <div class="foot">
+        <div class="foot1">
+            <p><a href="news.html">Новости</a></p>
+            <p><a href="#">Книги</a></p>
+            <p><a href="#">Услуги</a></p>
+            <p><a href="#">О нас</a></p>
+        </div>
+        <div class="foot2">
+            <p>Мы в социальных сетях</p>
+            <a href="https://web.telegram.org"><div><img src="img/icons/telegram.png" alt="Телеграм"></a>
+            <a href="https://vk.com/"><img src="img/icons/vk.png" alt="ВК"></a>
+            <a href="https://www.youtube.com/"><img src="img/icons/youtube.png" alt="Ютуб"></div></a>
+        </div>
+        <div class="foot3">
+            <p>Контакты</p>
+            <p>Адрес: ул. Свободы, д 92</p>
+            <p>+7 (952) 443-11-18</p>
+        </div>
+    </div>
+    </div>
+</footer>
+
+<!--Функция бургера-->
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script>
+    $(function() {
+        var link = $('.bars');
+        var close = $('.close-menu');
+        var menu = $('.m-menu');
+        link.on('click', function(event) {
+            event.preventDefault();
+            menu.toggleClass('m-menu__active')
+        });
+        close.on('click', function(event) {
+            event.preventDefault();
+            menu.toggleClass('m-menu__active')
+        });
+    });
+</script>
+</body>
+</html>

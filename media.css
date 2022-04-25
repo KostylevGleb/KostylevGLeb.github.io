@@ -1,0 +1,152 @@
+@media (max-width: 979px) {
+    .menu {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .menu-link-1 {
+        font-size: 1.2rem;
+        width: 18%;
+    }
+    .menu-link {
+        display: none;
+    }
+    .bars {
+        display: block;
+    }
+    .header {
+        width: 82%;
+    }
+    .main-2 {
+        width: 82%;
+        justify-content: space-around;
+    }
+    .main-1 {
+        width: 82%;
+    }
+    #main-2-1 {
+        display: none;
+    }
+    .main4 {
+        width: 82%;
+    }
+    .main4-1 {
+        flex-wrap: wrap;
+    }
+    .main4-1 div {
+        width: 40%;
+        height: 40%;
+    }
+    .main4-2 {
+        margin-top: 20px;
+    }
+    .news {
+        width: 82%;
+    }
+    .foot1 {
+        display: none;
+    }
+    .foot {
+        width: 82%;
+    }
+    .main-book {
+        width: 82%;
+    }
+    .main-404 {
+        width: 82%;
+    }
+    .search input{ 
+        padding-right: 455px;
+    }
+}
+@media (max-width: 906px) {
+    .menu-link-1 {
+        width: 20%;
+    }
+}
+@media (max-width: 815px) {
+    .menu-link-1 {
+        width: 22%;
+    }
+}
+@media (max-width: 741px) {
+    .menu-link-1 {
+        width: 23%;
+    }
+}
+@media (max-width: 720px) {
+    #main-2-1-1 {
+        display: none;
+    }
+    .main-2 {
+        justify-content: center;
+    }
+    .main-2 span {
+        text-align: center;
+    }
+    .span4 {
+        margin-left: 52px;
+    }
+    .menu-link-1 {
+        width: 25%;
+    }
+    .main4-1 {
+        flex-direction: column;
+    }
+    .main4-1 div {
+        width: 45%;
+        height: none;
+    }
+    .main-news-1-1 {
+        flex-direction: column;
+    }
+    .main-news-1-1 span{
+        margin-top: 20px;
+        width: 100%;
+        text-align: center;
+    }
+    .foot {
+        display: block;
+    }
+    .foot2 {
+        margin-bottom: 60px;
+    }
+    .main-book img{
+        width: 50%;
+        height: 50%;
+    }
+    .main-book-1 {
+        flex-direction: column;
+    }
+    .main-book-2 {
+        margin-top: 20px;
+        margin-left: 0;
+    }
+    .main-book-1 input{
+        margin-left: 0;
+    }
+    .main-404-1 {
+        flex-direction: column;
+    }
+    .search input{ 
+        padding-right: 200px;
+        margin-top: 30px;
+    }
+    i.fa {
+        margin-top: 30px;
+    }
+}
+@media (max-width: 652px) {
+    .menu-link-1 {
+        width: 28%;
+    }
+}
+@media (max-width: 581px) {
+    .menu-link-1 {
+        width: 31%;
+    }
+}
+@media (max-width: 526px) {
+    .menu-link-1 {
+        width: 34%;
+    }
+}

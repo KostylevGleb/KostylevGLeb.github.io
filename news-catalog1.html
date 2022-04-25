@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Новости</title>
+    <meta name="description" content="Страница отдельной новости">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <ul class="m-menu">
+        <li class="close-menu"><a href="#">&times;</a></li>
+        <li class="menu-link-3"><a href="news.html">Новости</a></li>
+        <li class="menu-link-3"><a href="book.html">Книги</a></li>
+        <li class="menu-link-3"><a href="#">Услуги</a></li>
+        <li class="menu-link-3"><a href="#">О нас</a></li>
+    </ul>
+<div class="header-fon">
+<header class="header">
+<ul class="menu">
+    <li class="menu-link-1"><a href="index.html">
+        Читай вместе с нами</a></li>
+    <li class="menu-link-2"><a href="news.html" class="menu-link">Новости</a></li>
+    <li class="menu-link-2"><a href="book.html" class="menu-link">Книги</a></li>
+    <li class="menu-link-2"><a href="#" class="menu-link">Услуги</a></li>
+    <li class="menu-link-2"><a href="#" class="menu-link">О нас</a></li>
+    <li class="icon"><div class="bars"><a href="#" class="fa fa-bars fa-lg">
+    </a></div><div class="icon-1"><a href="#" 
+        class="fa fa-search fa-rotate-90 fa-lg"></a></div>
+    <div><a href="#" class="fa fa-user fa-lg"></a></div></li>
+</ul>
+</header>
+</div>
+<main class="news">
+    <div class="main-news-1">
+        <div id="main-news-1-1"><img src="img/news/gromadnaya_biblioteka.jpeg" alt="Новостная картинка">
+        <span class="news-3">Информация об организации</span></div>
+        <h3 class="news-2">25.03.2022</h3>
+    </div>
+    <div class="news-4">
+        <h3>Создание и деятельность организации</h3>
+        <p><strong>Наименование:</strong><br>Читайте вместе с нами</p>
+        <p><strong>Дата создания:</strong> 2022 г.</p>
+        <p><strong>Общая информация:</strong><br>Это удобный интернет-магазин 
+            нашей библиотеки. В нём можно арендовать книги разных жанров: триллеры 
+            и детективы, фэнтези и фантастику.
+            На сайте есть разделы, в которых легко найти интересные новинки, 
+            бестселлеры и современную прозу.</p>
+        <p><strong>Директор:</strong><br>Костылев Глеб Алексеевич<br>тел: 
+            +7(982) 230-70-42 </p>
+    </div>
+</main>
+<footer>
+    <div class="foot-fon">
+    <div class="foot">
+        <div class="foot1">
+            <p><a href="news.html">Новости</a></p>
+            <p><a href="#">Книги</a></p>
+            <p><a href="#">Услуги</a></p>
+            <p><a href="#">О нас</a></p>
+        </div>
+        <div class="foot2">
+            <p>Мы в социальных сетях</p>
+            <a href="https://web.telegram.org"><div><img src="img/icons/telegram.png" alt="Телеграм"></a>
+            <a href="https://vk.com/"><img src="img/icons/vk.png" alt="ВК"></a>
+            <a href="https://www.youtube.com/"><img src="img/icons/youtube.png" alt="Ютуб"></div></a>
+        </div>
+        <div class="foot3">
+            <p>Контакты</p>
+            <p>Адрес: ул. Свободы, д 92</p>
+            <p>+7 (952) 443-11-18</p>
+        </div>
+    </div>
+    </div>
+</footer>
+
+<!--Функция бургера-->
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script>
+        $(function() {
+            var link = $('.bars');
+            var close = $('.close-menu');
+            var menu = $('.m-menu');
+            link.on('click', function(event) {
+                event.preventDefault();
+                menu.toggleClass('m-menu__active')
+            });
+            close.on('click', function(event) {
+                event.preventDefault();
+                menu.toggleClass('m-menu__active')
+            });
+        });
+    </script>
+</body>
+</html>
