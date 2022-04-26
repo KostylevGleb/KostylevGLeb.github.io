@@ -1,4 +1,4 @@
-ErrorDocument 404 http://localhost/сайт/404.html
+ErrorDocument 404 http://KostylevGleb.github.io/404.html
 ## EXPIRES CACHING ##
 <FilesMatch ".(flv|gif|jpg|jpeg|png|ico|swf|js|css|pdf)$">
 	Header set Cache-Control "max-age=2592000"
