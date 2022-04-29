@@ -134,6 +134,14 @@
     i.fa {
         margin-top: 30px;
     }
+    .main-news-1 img {
+        width: 233.3px;
+        height: 116.6px;
+    }
+    .main-news-2 img{
+        width: 233.3px;
+        height: 145.83px;
+    }
 }
 @media (max-width: 652px) {
     .menu-link-1 {
