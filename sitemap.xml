@@ -61,6 +61,9 @@
 		<changefreq>daily</changefreq>
 		<priority>1</priority>
 		<image:image>
+			<image:loc>http://KostylevGleb.github.io/img/news/newbook.jpeg</image:loc>
+		</image:image>
+		<image:image>
 			<image:loc>http://KostylevGleb.github.io/img/news/gromadnaya_biblioteka.jpeg</image:loc>
 		</image:image>
 		<image:image>
@@ -125,6 +128,27 @@
 		<priority>0.5</priority>
 		<image:image>
 			<image:loc>http://KostylevGleb.github.io/img/news/dom-na-skale-biblioteki.jpeg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>http://KostylevGleb.github.io/img/icons/telegram.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>http://KostylevGleb.github.io/img/icons/vk.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>http://KostylevGleb.github.io/img/icons/youtube.png</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://KostylevGleb.github.io/news-catalog3.html</loc>
+		<lastmod>2022-04-15</lastmod>
+		<changefreq>never</changefreq>
+		<priority>0.5</priority>
+		<image:image>
+			<image:loc>http://KostylevGleb.github.io/img/books/book0013.jpeg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>http://KostylevGleb.github.io/img/news/newbook.jpeg</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>http://KostylevGleb.github.io/img/icons/telegram.png</image:loc>

@@ -57,6 +57,12 @@
     .search input{ 
         padding-right: 455px;
     }
+    .news-5 {
+        display: block;
+    }
+    .news h1{
+        font-size: 24px;
+    }
 }
 @media (max-width: 906px) {
     .menu-link-1 {

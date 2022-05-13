@@ -160,6 +160,9 @@ header {
     margin: 0 auto;
     width: 980px;
 }
+.news h1{
+    color: #11385c;
+}
 .main-news-1 {
     margin-top: 70px;
     margin-bottom: 70px;
@@ -233,6 +236,18 @@ hr {
 }
 .news-3 {
     margin-top: 25px;
+}
+.news-5 {
+    display: flex;
+}
+.news-5 img{
+    width: 300px;
+    height: 454.766px;
+    margin-right: 30px;
+}
+.news-5 a{
+    text-decoration: none;
+    color: black;
 }
 .main4 {
     margin: 0 auto;
