@@ -148,6 +148,10 @@
         width: 233.3px;
         height: 145.83px;
     }
+    .news-5 img{
+        width: 200px;
+        height: 300px;
+    }
 }
 @media (max-width: 652px) {
     .menu-link-1 {
