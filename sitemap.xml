@@ -64,6 +64,9 @@
 			<image:loc>http://KostylevGleb.github.io/img/news/newbook.jpeg</image:loc>
 		</image:image>
 		<image:image>
+			<image:loc>http://KostylevGleb.github.io/img/news/presentation.jpeg</image:loc>
+		</image:image>
+		<image:image>
 			<image:loc>http://KostylevGleb.github.io/img/news/gromadnaya_biblioteka.jpeg</image:loc>
 		</image:image>
 		<image:image>
@@ -149,6 +152,24 @@
 		</image:image>
 		<image:image>
 			<image:loc>http://KostylevGleb.github.io/img/news/newbook.jpeg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>http://KostylevGleb.github.io/img/icons/telegram.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>http://KostylevGleb.github.io/img/icons/vk.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>http://KostylevGleb.github.io/img/icons/youtube.png</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://KostylevGleb.github.io/news-catalog4.html</loc>
+		<lastmod>2022-04-15</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.8</priority>
+		<image:image>
+			<image:loc>http://KostylevGleb.github.io/img/news/presentation.jpeg</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>http://KostylevGleb.github.io/img/icons/telegram.png</image:loc>
