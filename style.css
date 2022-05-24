@@ -460,6 +460,16 @@ hr {
     font-size: 200px;
     color: #184C7C;
 }
+.main-soon {
+    margin: 0 auto;
+    width: 980px;
+    text-align: center;
+    margin-top: 250px;
+    margin-bottom: 300px;
+}
+.main-soon h1{
+    color: #11385c;
+}
 .search input{ 
     border: 1.5px solid #184C7C;
     border-radius: 6px;
