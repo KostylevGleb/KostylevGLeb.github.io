@@ -470,6 +470,19 @@ hr {
 .main-soon h1{
     color: #11385c;
 }
+.about-us {
+    margin: 0 auto;
+    width: 980px;
+}
+.about-us h1 {
+    color: #11385c;
+}
+.about-us h3 {
+    color: #184C7C;
+}
+.about-us p {
+    color: #184C7C;
+}
 .search input{ 
     border: 1.5px solid #184C7C;
     border-radius: 6px;

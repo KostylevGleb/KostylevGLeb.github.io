@@ -63,6 +63,12 @@
     .news h1{
         font-size: 24px;
     }
+    .main-soon {
+        width: 82%;
+    }
+    .about-us {
+        width: 82%;
+    }
 }
 @media (max-width: 906px) {
     .menu-link-1 {
@@ -151,6 +157,12 @@
     .news-5 img{
         width: 200px;
         height: 300px;
+    }
+    .main-soon h1 {
+        font-size: 20px;
+    }
+    .main-soon span {
+        font-size: 12px;
     }
 }
 @media (max-width: 652px) {
